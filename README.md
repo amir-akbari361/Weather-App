@@ -39,7 +39,7 @@ text
 ## 🚀 How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/amir-akbari361/Weather-App 
+   git clone https://github.com/amir-akbari361/Weather-App.git
 Open index.html in your browser.
  
 🔑 API Key Setup
