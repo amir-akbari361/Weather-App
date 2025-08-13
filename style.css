@@ -1,0 +1,81 @@
+body {
+  background: linear-gradient(to bottom, #283e51, #485563);
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.8s ease;
+}
+
+#app {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+#search {
+  margin-bottom: 20px;
+}
+
+#city-input {
+  padding: 8px;
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+}
+
+#search-btn {
+  padding: 8px 12px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#search-btn:hover {
+  background-color: #2980b9;
+}
+
+#weather-icon {
+  width: 80px;
+  height: 80px;
+  margin: 10px 0;
+}
+
+/* --- Adaptive Background Classes --- */
+body.clear {
+  background: linear-gradient(to bottom, #4facfe, #00f2fe);
+}
+
+body.clouds {
+  background: linear-gradient(to bottom, #bdc3c7, #2c3e50);
+}
+
+body.rain {
+  background: linear-gradient(to bottom, #2c3e50, #3498db);
+}
+
+body.snow {
+  background: linear-gradient(to bottom, #e6dada, #274046);
+  color: black;
+}
+
+body.thunderstorm {
+  background: linear-gradient(to bottom, #232526, #414345);
+}
+
+body.drizzle {
+  background: linear-gradient(to bottom, #83a4d4, #b6fbff);
+  color: black;
+}
+
+body.mist {
+  background: linear-gradient(to bottom, #606c88, #3f4c6b);
+}
